@@ -40,7 +40,7 @@ noremap <Right> <Nop>
 " +----------------+
 
 " delete trailing space when saving files
-autocmd vimrc BufWrite *.php,*.js,*.jsx,*.vue,*.twig,*.html,*.sh,*.yaml,*.yml :call general#DeleteTrailingWS()
+autocmd vimrc BufWrite * :call general#DeleteTrailingWS()
 
 " the copy goes to the clipboard
 set clipboard+=unnamedplus
