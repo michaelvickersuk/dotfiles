@@ -56,6 +56,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" set list
+set list listchars=tab:»\ ,eol:¬,trail:·,nbsp:·,extends:›,precedes:‹
+
 " Better ex autocompletion
 set wildmenu
 set wildmode=list:longest,full
