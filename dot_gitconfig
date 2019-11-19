@@ -2,4 +2,4 @@
 	name = 
 	email = 
 [core]
-	excludesfile = /home/michael/.gitignore
+	excludesfile = ~/.gitignore
