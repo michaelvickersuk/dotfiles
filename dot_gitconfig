@@ -1,7 +1,10 @@
 [user]
 	name = 
 	email = 
+	signingkey = 
 [core]
 	excludesfile = ~/.gitignore
+[commit]
+        gpgsign = true
 [push]
         default = current
