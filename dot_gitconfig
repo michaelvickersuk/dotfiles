@@ -3,3 +3,5 @@
 	email = 
 [core]
 	excludesfile = ~/.gitignore
+[push]
+        default = current
