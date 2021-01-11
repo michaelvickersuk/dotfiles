@@ -28,6 +28,14 @@
     userId: "7e18b9e7-6b04-4428-9f2a-b7e85f0c4fce"
   "file-icons":
     onChanges: true
+  "language-dotenv":
+    dotenvFileNames: [
+      ".env"
+      ".env.example"
+      ".env.testing"
+      ".env.testing.example"
+      ".env.ide-helper.example"
+    ]
   linter:
     lintOnChangeInterval: 600
   "linter-phpcs": {}
