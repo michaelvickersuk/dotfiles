@@ -1,0 +1,52 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "83074a55-20c1-47b5-9232-db74cbb835fc"
+    php:
+      allow_risky: "yes"
+      beautify_on_save: true
+      cs_fixer_config_file: ".php_cs"
+  "atom-linter-phpstan":
+    executablePath: "~/.config/composer/vendor/bin/phpstan"
+    level: "1"
+    memoryLimit: "1G"
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "project-manager"
+      "docblockr"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "7e18b9e7-6b04-4428-9f2a-b7e85f0c4fce"
+  "file-icons":
+    onChanges: true
+  linter:
+    lintOnChangeInterval: 600
+  "linter-phpcs": {}
+  "linter-ui-default":
+    panelHeight: 235
+    showPanel: true
+    statusBarRepresents: "Current File"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  tabs:
+    displayMruTabList: false
+    enableMruTabSwitching: false
+  "todo-show": {}
+  wakatime:
+    apikey: "Saved in your $WAKATIME_HOME/.wakatime.cfg file"
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
