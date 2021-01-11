@@ -5,6 +5,6 @@
 [core]
 	excludesfile = ~/.gitignore
 [commit]
-        gpgsign = true
+	gpgsign = true
 [push]
-        default = current
+	default = current
