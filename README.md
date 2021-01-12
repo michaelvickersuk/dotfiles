@@ -9,5 +9,5 @@ chezmoi init --apply --verbose https://github.com/michaelvickersuk/dotfiles.git
 ## Update
 
 ```shell
-chezmoi update
+chezmoi update --verbose
 ```
