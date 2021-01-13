@@ -8,7 +8,6 @@
     php:
       allow_risky: "yes"
       beautify_on_save: true
-      cs_fixer_config_file: ".php_cs"
   "atom-linter-phpstan":
     executablePath: "~/.composer/vendor/bin/phpstan"
     level: "1"
