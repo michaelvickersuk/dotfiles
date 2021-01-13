@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo -e "\e[1mRun command \`package-sync:sync\` in Atom to install packages\e[0m"
