@@ -1,5 +1,8 @@
 "*":
   "atom-beautify":
+    executables:
+      "php-cs-fixer":
+        path: "/home/michael/.composer/vendor/bin/php-cs-fixer"
     general:
       _analyticsUserId: "83074a55-20c1-47b5-9232-db74cbb835fc"
     php:
@@ -7,7 +10,7 @@
       beautify_on_save: true
       cs_fixer_config_file: ".php_cs"
   "atom-linter-phpstan":
-    executablePath: "~/.config/composer/vendor/bin/phpstan"
+    executablePath: "~/.composer/vendor/bin/phpstan"
     level: "1"
     memoryLimit: "1G"
   core:
