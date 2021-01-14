@@ -1,21 +1,22 @@
 #!/usr/bin/env bash
 
-sudo apt update
-
-sudo apt install --yes \
-php \
-php-bcmath \
-php-cli \
-php-common \
-php-curl \
-php-fpm \
-php-gd \
-php-json \
-php-mbstring \
-php-mysql \
-php-pear \
-php-xml \
-php-zip
+# In preparation for Ubuntu 20.04 LTS
+# sudo apt update
+# 
+# sudo apt install --yes \
+# php \
+# php-bcmath \
+# php-cli \
+# php-common \
+# php-curl \
+# php-fpm \
+# php-gd \
+# php-json \
+# php-mbstring \
+# php-mysql \
+# php-pear \
+# php-xml \
+# php-zip
 
 COMPOSER_MEMORY_LIMIT=-1 composer global require \
 friendsofphp/php-cs-fixer \
