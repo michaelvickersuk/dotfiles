@@ -1,0 +1,11 @@
+--exclude=_ide_helper.php
+--exclude=@.gitignore
+--exclude=storage
+--exclude=vendor
+--extras=f
+--languages=PHP
+--recurse=yes
+--regex-php=/get([a-z|A-Z|0-9]+)Attribute/_FIRST_CHAR_TO_LOWER_\1/
+--regex-php=/scope([a-z|A-Z|0-9]+)/_FIRST_CHAR_TO_LOWER_\1/
+--tag-relative=yes
+--totals=yes
