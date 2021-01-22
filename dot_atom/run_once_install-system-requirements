@@ -20,6 +20,7 @@
 
 COMPOSER_MEMORY_LIMIT=-1 composer global require \
 friendsofphp/php-cs-fixer \
+phpmd/phpmd \
 phpstan/extension-installer \
 phpstan/phpstan \
 phpstan/phpstan-deprecation-rules \

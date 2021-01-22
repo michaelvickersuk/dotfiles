@@ -41,6 +41,8 @@
   linter:
     lintOnChangeInterval: 600
   "linter-phpcs": {}
+  "linter-phpmd":
+    executablePath: "/home/michael/.composer/vendor/bin/phpmd"
   "linter-ui-default":
     panelHeight: 235
     showPanel: true
