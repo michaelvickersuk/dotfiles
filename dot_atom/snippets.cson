@@ -1,0 +1,4 @@
+'.source.php':
+    'Declare strict types':
+        'prefix': 'strict'
+        'body': 'declare(strict_types=${1:1});$0\n\n'
