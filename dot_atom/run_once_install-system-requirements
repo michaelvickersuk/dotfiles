@@ -28,4 +28,6 @@ phpstan/phpstan-mockery \
 squizlabs/php_codesniffer:3.* \
 thecodingmachine/phpstan-strict-rules
 
-sudo npm -g install js-beautify
+sudo npm -g install \
+coffee-fmt \
+js-beautify

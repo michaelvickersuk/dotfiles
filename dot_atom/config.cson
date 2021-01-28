@@ -1,5 +1,7 @@
 "*":
   "atom-beautify":
+    coffeescript:
+      beautify_on_save: true
     executables:
       "php-cs-fixer":
         path: "/home/michael/.composer/vendor/bin/php-cs-fixer"
