@@ -49,6 +49,9 @@
     ]
   linter:
     lintOnChangeInterval: 600
+  "linter-eslint":
+    autofix:
+      fixOnSave: true
   "linter-phpcs": {}
   "linter-phpmd":
     executablePath: "/home/michael/.composer/vendor/bin/phpmd"

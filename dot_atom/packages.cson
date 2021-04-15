@@ -12,6 +12,7 @@ packages: [
   "language-blade"
   "language-dotenv"
   "linter"
+  "linter-eslint"
   "linter-php"
   "linter-phpcs"
   "linter-phpmd"
