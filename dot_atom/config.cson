@@ -9,6 +9,8 @@
       _analyticsUserId: "83074a55-20c1-47b5-9232-db74cbb835fc"
     html:
       beautify_on_save: true
+    js:
+      default_beautifier: "Prettier"
     php:
       allow_risky: "yes"
       beautify_on_save: true
