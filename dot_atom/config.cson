@@ -25,7 +25,6 @@
     autoHideMenuBar: true
     disabledPackages: [
       "project-manager"
-      "docblockr"
     ]
     telemetryConsent: "limited"
     themes: [
