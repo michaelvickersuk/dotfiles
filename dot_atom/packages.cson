@@ -18,6 +18,7 @@ packages: [
   "linter-phpmd"
   "linter-ui-default"
   "package-sync"
+  "prettier-atom"
   "project-manager"
   "sort-lines"
   "wakatime"
