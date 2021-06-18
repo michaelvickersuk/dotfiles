@@ -2,7 +2,7 @@ packages: [
   "atom-beautify"
   "atom-linter-phpstan"
   "busy-signal"
-  "case-switch"
+  "change-case"
   "docblockr"
   "editorconfig"
   "file-icons"
