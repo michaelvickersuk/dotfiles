@@ -1,4 +1,5 @@
 'atom-text-editor:not([mini])':
+    'ctrl--': 'toggle:there'
     'ctrl-k ctrl-c': 'change-case:camel'
     'ctrl-k ctrl-k': 'change-case:kebab'
     'ctrl-k ctrl-s': 'change-case:snake'
