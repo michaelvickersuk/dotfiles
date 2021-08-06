@@ -77,3 +77,6 @@
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+".html.php.text":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-"
