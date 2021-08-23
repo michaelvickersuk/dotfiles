@@ -5,3 +5,11 @@
     'Test without exception handling':
         'prefix': 'withoutExceptionHandling'
         'body': '$this->withoutExceptionHandling();$0\n'
+    'match …':
+        'prefix': 'match'
+        'body': """
+                match (variable) {
+                    'value' => 'foo',
+                    default => null,
+                };
+                """
