@@ -2,7 +2,7 @@
 
 # In preparation for Ubuntu 20.04 LTS
 # sudo apt update
-# 
+#
 # sudo apt install --yes \
 # php \
 # php-bcmath \
