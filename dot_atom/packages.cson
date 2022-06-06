@@ -19,7 +19,6 @@ packages: [
   "linter-ui-default"
   "package-sync"
   "prettier-atom"
-  "project-manager"
   "sort-lines"
   "toggle"
   "wakatime"

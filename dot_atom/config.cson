@@ -25,7 +25,6 @@
   core:
     autoHideMenuBar: true
     disabledPackages: [
-      "project-manager"
     ]
     telemetryConsent: "limited"
     themes: [
