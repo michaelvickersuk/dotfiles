@@ -79,4 +79,4 @@
     nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-"
 ".html.php.text":
   editor:
-    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-"
+    nonWordCharacters: "/\\()\"':,;<>~!@#%^&*|+=[]{}`?-"
