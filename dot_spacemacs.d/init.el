@@ -52,7 +52,7 @@ This function should only modify configuration layer settings."
      ;;        shell-default-position 'bottom)
      (php :variables php-backend 'lsp)
      ;; spell-checking
-     ;; syntax-checking
+     syntax-checking
      ;; version-control
      (wakatime :variables
         wakatime-api-key "your-api-key"
