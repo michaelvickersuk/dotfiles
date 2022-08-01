@@ -54,6 +54,9 @@ This function should only modify configuration layer settings."
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
+     (wakatime :variables
+        wakatime-api-key "your-api-key"
+        wakatime-cli-path "$HOME/.wakatime/wakatime-cli")
      treemacs)
 
 
