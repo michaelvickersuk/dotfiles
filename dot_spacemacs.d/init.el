@@ -53,7 +53,7 @@ This function should only modify configuration layer settings."
      (php :variables php-backend 'lsp)
      spell-checking
      syntax-checking
-     ;; version-control
+     version-control
      (wakatime :variables
         wakatime-api-key "your-api-key"
         wakatime-cli-path "$HOME/.wakatime/wakatime-cli")
