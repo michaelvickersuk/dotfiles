@@ -51,7 +51,7 @@ This function should only modify configuration layer settings."
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
      (php :variables php-backend 'lsp)
-     ;; spell-checking
+     spell-checking
      syntax-checking
      ;; version-control
      (wakatime :variables
