@@ -581,6 +581,8 @@ before packages are loaded."
      :background nil
      :foreground "gray30")
 
+   (spacemacs/treemacs-project-toggle)
+
      (progn
       ;; Make whitespace-mode with very basic background coloring for whitespaces.
        ;; http://xahlee.info/emacs/emacs/whitespace-mode.html
