@@ -59,7 +59,7 @@ This function should only modify configuration layer settings."
      (wakatime :variables
         wakatime-api-key "your-api-key"
         wakatime-cli-path "$HOME/.wakatime/wakatime-cli")
-     treemacs)
+     (treemacs :variables treemacs-use-git-mode 'deferred))
 
 
    ;; List of additional packages that will be installed without being wrapped
