@@ -53,6 +53,7 @@ This function should only modify configuration layer settings."
      (php :variables php-backend 'lsp)
      spell-checking
      syntax-checking
+     themes-megapack
      (version-control :variables
        version-control-diff-tool 'diff-hl
        version-control-global-margin t)
@@ -78,7 +79,13 @@ This function should only modify configuration layer settings."
    dotspacemacs-frozen-packages '()
 
    ;; A list of packages that will not be installed and loaded.
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages
+   '(
+     firebelly-theme
+     niflheim-theme
+     pastels-on-dark-theme
+     tronesque-theme
+     zonokai-theme)
 
    ;; Defines the behaviour of Spacemacs when installing packages.
    ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
