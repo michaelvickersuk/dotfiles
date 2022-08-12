@@ -583,6 +583,8 @@ Put your configuration code here, except for variables that should be set
 before packages are loaded."
    (editorconfig-mode 1)
 
+   (add-to-list 'auto-mode-alist '("\\.blade.php\\'" . web-mode))
+
    (global-whitespace-mode)
 
    (set-face-attribute 'whitespace-newline nil
