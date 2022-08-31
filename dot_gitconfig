@@ -6,5 +6,6 @@
 	excludesfile = ~/.gitignore
 [commit]
 	gpgsign = true
+	template = ~/.gitmessage
 [push]
 	default = current
