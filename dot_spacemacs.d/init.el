@@ -75,7 +75,8 @@ This function should only modify configuration layer settings."
    ;; Also include the dependencies as they will not be resolved automatically.
    dotspacemacs-additional-packages
    '(
-     editorconfig)
+     editorconfig
+     highlight-indent-guides)
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -583,6 +584,8 @@ Put your configuration code here, except for variables that should be set
 before packages are loaded."
    (editorconfig-mode 1)
 
+   (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+
    (add-to-list 'auto-mode-alist '("\\.blade.php\\'" . web-mode))
 
    (global-whitespace-mode)
@@ -594,6 +597,8 @@ before packages are loaded."
    (set-face-attribute 'whitespace-space nil
      :background nil
      :foreground "gray30")
+
+   (setq highlight-indent-guides-method 'character)
 
    (spacemacs/treemacs-project-toggle)
 
