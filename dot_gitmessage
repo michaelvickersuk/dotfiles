@@ -6,7 +6,7 @@
 # Wrap the body at 72 characters ------------------------------------->|
 
 # Provide links or keys to any relevant tickets, articles or other resources, eg
-# Fixes issue #23
+# Close #22, fix #23, resolve octo-org/octo-repo#24
 
 
 # Add contributors separated by a blank line, eg
