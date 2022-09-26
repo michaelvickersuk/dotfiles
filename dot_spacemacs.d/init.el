@@ -589,8 +589,6 @@ before packages are loaded."
 
    (add-to-list 'auto-mode-alist '("\\.blade.php\\'" . web-mode))
 
-   (global-aggressive-indent-mode 1)
-
    (global-whitespace-mode)
 
    (set-face-attribute 'whitespace-newline nil
