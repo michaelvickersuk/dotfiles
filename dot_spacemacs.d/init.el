@@ -62,7 +62,6 @@ This function should only modify configuration layer settings."
      (wakatime :variables
         wakatime-api-key "your-api-key"
         wakatime-cli-path "$HOME/.wakatime/wakatime-cli")
-     (treemacs :variables treemacs-use-git-mode 'deferred))
      (treemacs :variables treemacs-use-git-mode 'extended))
 
 
