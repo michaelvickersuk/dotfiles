@@ -45,7 +45,7 @@ This function should only modify configuration layer settings."
      (html :variables html-enable-lsp t)
      helm
      (javascript :variables js2-mode-show-strict-warnings nil)
-     ;; lsp
+     lsp
      markdown
      multiple-cursors
      ;; org
