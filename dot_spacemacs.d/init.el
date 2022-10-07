@@ -601,6 +601,7 @@ before packages are loaded."
      :foreground "gray30")
 
    (setq highlight-indent-guides-method 'character)
+   (setq lsp-diagnostic-package :none)
    (setq php-cs-fixer-config-option "/home/michael/path/to/the/.php-cs-fixer.php")
 
    (spacemacs/treemacs-project-toggle)
