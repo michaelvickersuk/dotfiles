@@ -76,7 +76,8 @@ This function should only modify configuration layer settings."
    dotspacemacs-additional-packages
    '(
      editorconfig
-     highlight-indent-guides)
+     highlight-indent-guides
+     php-cs-fixer)
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -584,6 +585,7 @@ Put your configuration code here, except for variables that should be set
 before packages are loaded."
    (editorconfig-mode 1)
 
+   (add-hook 'before-save-hook 'php-cs-fixer-before-save)
    (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 
    (add-to-list 'auto-mode-alist '("\\.blade.php\\'" . web-mode))
@@ -599,6 +601,7 @@ before packages are loaded."
      :foreground "gray30")
 
    (setq highlight-indent-guides-method 'character)
+   (setq php-cs-fixer-config-option "/home/michael/path/to/the/.php-cs-fixer.php")
 
    (spacemacs/treemacs-project-toggle)
 
