@@ -618,6 +618,9 @@ before packages are loaded."
                (newline-mark 10 [8629 10]) ; LINE FEED,
                (tab-mark 9 [9655 9] [92 9]) ; tab
                )))
+
+   (with-eval-after-load 'lsp-mode
+     (add-to-list 'lsp-file-watch-ignored-directories "[/\\\\]\\vendor\\'"))
 )
 
 
