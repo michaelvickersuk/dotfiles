@@ -76,6 +76,7 @@ This function should only modify configuration layer settings."
    dotspacemacs-additional-packages
    '(
      editorconfig
+     flycheck-phpstan
      highlight-indent-guides
      php-cs-fixer)
 
@@ -599,6 +600,9 @@ before packages are loaded."
    (set-face-attribute 'whitespace-space nil
      :background nil
      :foreground "gray30")
+
+   (require 'flycheck-phpstan)
+   (flycheck-add-next-checker 'phpstan 'php-phpmd)
 
    (setq highlight-indent-guides-method 'character)
    (setq lsp-diagnostic-package :none)
