@@ -606,6 +606,7 @@ before packages are loaded."
 
    (setq highlight-indent-guides-method 'character)
    (setq lsp-diagnostic-package :none)
+   (setq flycheck-phpmd-rulesets "/home/michael/path/to/the/phpmd.xml")
    (setq php-cs-fixer-config-option "/home/michael/path/to/the/.php-cs-fixer.php")
 
    (spacemacs/treemacs-project-toggle)
