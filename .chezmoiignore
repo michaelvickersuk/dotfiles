@@ -1,7 +1,1 @@
-dot_atom/init.coffee
-dot_atom/config.cson
-dot_atom/keymap.cson
-dot_atom/packages.cson
-dot_atom/snippets.cson
-dot_atom/styles.less
 README.md
