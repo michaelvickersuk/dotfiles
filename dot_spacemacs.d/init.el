@@ -587,6 +587,7 @@ before packages are loaded."
    (editorconfig-mode 1)
 
    (add-hook 'before-save-hook 'php-cs-fixer-before-save)
+   (add-hook 'js2-mode-hook 'prettier-js-mode)
    (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 
    (add-to-list 'auto-mode-alist '("\\.blade.php\\'" . web-mode))
