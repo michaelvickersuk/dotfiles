@@ -585,50 +585,18 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-   (editorconfig-mode 1)
 
-   (add-hook 'before-save-hook 'php-cs-fixer-before-save)
-   (add-hook 'js2-mode-hook 'prettier-js-mode)
-   (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+  ;; JavaScript configuration
+  (setq javascript-config-file (file-truename (concat dotspacemacs-directory "javascript-config.el")))
+  (load javascript-config-file)
 
-   (add-to-list 'auto-mode-alist '("\\.blade.php\\'" . web-mode))
+  ;; PHP configuration
+  (setq php-config-file (file-truename (concat dotspacemacs-directory "php-config.el")))
+  (load php-config-file)
 
-   (global-whitespace-mode)
-
-   (set-face-attribute 'whitespace-newline nil
-     :background nil
-     :foreground "gray30")
-
-   (set-face-attribute 'whitespace-space nil
-     :background nil
-     :foreground "gray30")
-
-   (require 'flycheck-phpstan)
-   (flycheck-add-next-checker 'phpstan 'php-phpmd)
-
-   (setq highlight-indent-guides-method 'character)
-   (setq lsp-diagnostic-package :none)
-   (setq flycheck-phpmd-rulesets "/home/michael/path/to/the/phpmd.xml")
-   (setq php-cs-fixer-config-option "/home/michael/path/to/the/.php-cs-fixer.php")
-
-   (spacemacs/treemacs-project-toggle)
-
-     (progn
-      ;; Make whitespace-mode with very basic background coloring for whitespaces.
-       ;; http://xahlee.info/emacs/emacs/whitespace-mode.html
-       (setq whitespace-style (quote (face spaces tabs newline space-mark tab-mark newline-mark )))
-
-       ;; Make whitespace-mode and whitespace-newline-mode use “¶” for end of line char and “▷” for tab.
-       (setq whitespace-display-mappings
-             ;; all numbers are unicode codepoint in decimal. e.g. (insert-char 182 1)
-             '(
-               (space-mark 32 [183] [46]) ; SPACE 32 「 」, 183 MIDDLE DOT 「·」, 46 FULL STOP 「.」
-               (newline-mark 10 [8629 10]) ; LINE FEED,
-               (tab-mark 9 [9655 9] [92 9]) ; tab
-               )))
-
-   (with-eval-after-load 'lsp-mode
-     (add-to-list 'lsp-file-watch-ignored-directories "[/\\\\]\\vendor\\'"))
+  ;; General configuration
+  (setq user-config-file (file-truename (concat dotspacemacs-directory "user-config.el")))
+  (load user-config-file)
 )
 
 
