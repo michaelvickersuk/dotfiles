@@ -77,6 +77,7 @@ This function should only modify configuration layer settings."
    dotspacemacs-additional-packages
    '(
      editorconfig
+     elisp-autofmt
      flycheck-phpstan
      highlight-indent-guides
      php-cs-fixer)

@@ -18,6 +18,7 @@
     :background nil
     :foreground "gray30")
     
+(setq elisp-autofmt-python-bin "python3")
 (setq highlight-indent-guides-method 'character)
 
 (spacemacs/treemacs-project-toggle)
