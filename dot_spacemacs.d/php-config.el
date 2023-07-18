@@ -16,4 +16,4 @@
 (setq php-cs-fixer-config-option "/home/michael/path/to/the/.php-cs-fixer.php")
 
 (with-eval-after-load 'lsp-mode
-    (add-to-list 'lsp-file-watch-ignored-directories "[/\\\\]\\vendor\\'"))
+  (add-to-list 'lsp-file-watch-ignored-directories "[/\\\\]\\vendor\\'"))

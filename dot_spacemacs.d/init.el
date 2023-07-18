@@ -57,12 +57,18 @@ This function should only modify configuration layer settings."
      spell-checking
      syntax-checking
      themes-megapack
-     (version-control :variables
-       version-control-diff-tool 'diff-hl
-       version-control-global-margin t)
-     (wakatime :variables
-        wakatime-api-key "your-api-key"
-        wakatime-cli-path "$HOME/.wakatime/wakatime-cli")
+     (version-control
+      :variables
+      version-control-diff-tool
+      'diff-hl
+      version-control-global-margin
+      t)
+     (wakatime
+      :variables
+      wakatime-api-key
+      "your-api-key"
+      wakatime-cli-path
+      "$HOME/.wakatime/wakatime-cli")
      (treemacs :variables treemacs-use-git-mode 'extended))
 
 
@@ -588,17 +594,19 @@ Put your configuration code here, except for variables that should be set
 before packages are loaded."
 
   ;; JavaScript configuration
-  (setq javascript-config-file (file-truename (concat dotspacemacs-directory "javascript-config.el")))
+  (setq javascript-config-file
+        (file-truename (concat dotspacemacs-directory "javascript-config.el")))
   (load javascript-config-file)
 
   ;; PHP configuration
-  (setq php-config-file (file-truename (concat dotspacemacs-directory "php-config.el")))
+  (setq php-config-file
+        (file-truename (concat dotspacemacs-directory "php-config.el")))
   (load php-config-file)
 
   ;; General configuration
-  (setq user-config-file (file-truename (concat dotspacemacs-directory "user-config.el")))
-  (load user-config-file)
-)
+  (setq user-config-file
+        (file-truename (concat dotspacemacs-directory "user-config.el")))
+  (load user-config-file))
 
 
 ;; Do not write anything past this comment. This is where Emacs will
