@@ -17,4 +17,3 @@
 
 (eval-after-load
     'magit '(define-key magit-mode-map "v" #'visit-new-pull-request-url))
-

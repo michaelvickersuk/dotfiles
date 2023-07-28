@@ -15,4 +15,3 @@
 (setq whitespace-line-column 120)
 
 (spacemacs/treemacs-project-toggle)
-
