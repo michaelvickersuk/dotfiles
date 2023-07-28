@@ -606,7 +606,12 @@ before packages are loaded."
   ;; General configuration
   (setq user-config-file
         (file-truename (concat dotspacemacs-directory "user-config.el")))
-  (load user-config-file))
+  (load user-config-file)
+  
+  ;; Version control configuration
+  (setq version-control-file
+        (file-truename (concat dotspacemacs-directory "version-control-config.el")))
+  (load version-control-file))
 
 
 ;; Do not write anything past this comment. This is where Emacs will
