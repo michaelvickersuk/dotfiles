@@ -41,7 +41,14 @@ This function should only modify configuration layer settings."
      ;; auto-completion
      ;; better-defaults
      emacs-lisp
-     git
+     (git
+      :variables
+      git-magit-status-fullscreen
+      t
+      magit-diff-refine-hunk
+      t
+      git-enable-magit-todos-plugin
+      t)
      (html :variables html-enable-lsp t)
      helm
      (javascript :variables js2-mode-show-strict-warnings nil)
