@@ -57,10 +57,17 @@ This function should only modify configuration layer settings."
      markdown
      multiple-cursors
      ;; org
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
      (php :variables php-backend 'lsp)
+     (shell
+      :variables
+      shell-default-shell
+      'vterm
+      shell-default-term-shell
+      "/usr/bin/zsh"
+      shell-default-height
+      30
+      shell-default-position
+      'bottom)
      spell-checking
      syntax-checking
      themes-megapack
