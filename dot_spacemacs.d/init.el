@@ -83,6 +83,7 @@ This function should only modify configuration layer settings."
       "your-api-key"
       wakatime-cli-path
       "$HOME/.wakatime/wakatime-cli")
+     (yaml :variables yaml-enable-lsp t)
      (treemacs :variables treemacs-use-git-mode 'extended))
 
 
