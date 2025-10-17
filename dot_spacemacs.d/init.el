@@ -53,7 +53,7 @@ This function should only modify configuration layer settings."
      helm
      (javascript :variables js2-mode-show-strict-warnings nil)
      json
-     (lsp :variables lsp-file-watch-threshold 3000)
+     (lsp :variables lsp-file-watch-threshold 20000)
      markdown
      multiple-cursors
      ;; org
